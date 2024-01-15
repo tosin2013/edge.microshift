@@ -23,7 +23,7 @@
         name: "{{ item }}"
         state: present
       loop:
-        - microshift-{{ rpm_install_version }}
+        - microshift
         - openshift-clients
 
     - name: Copy pull secret
